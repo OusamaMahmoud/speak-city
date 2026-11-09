@@ -1,0 +1,59 @@
+# Production stack for one server (e.g. a DigitalOcean droplet).
+#   cp .env.production.example .env.production   # fill in the values
+#   docker compose -f docker-compose.prod.yml --env-file .env.production up -d --build
+# Caddy gets HTTPS certificates automatically for $DOMAIN (point the domain's A record at the server first).
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: speakcity
+      MYSQL_USER: speakcity
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      retries: 30
+
+  api:
+    build: { context: ., dockerfile: apps/api/Dockerfile }
+    restart: unless-stopped
+    depends_on:
+      mysql: { condition: service_healthy }
+    environment:
+      DATABASE_URL: mysql://speakcity:${MYSQL_PASSWORD}@mysql:3306/speakcity
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRES_IN: 30d
+      PORT: 4000
+      WEB_ORIGIN: https://${DOMAIN}
+      BOOK_TOTAL: 5000
+    # not published: only the web container talks to the API
+
+  web:
+    build: { context: ., dockerfile: apps/web/Dockerfile }
+    restart: unless-stopped
+    depends_on: [api]
+    environment:
+      API_URL: http://api:4000/api
+      # set to 1 only while testing over plain http (no domain yet)
+      INSECURE_COOKIES: ${INSECURE_COOKIES:-0}
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on: [web]
+    ports: ["80:80", "443:443"]
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+volumes:
+  mysql-data:
+  caddy-data:
+  caddy-config:

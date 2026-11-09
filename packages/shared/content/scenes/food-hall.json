@@ -430,18 +430,18 @@
   },
   {
    "type": "sign",
-   "kind": "hang",
+   "kind": "stand",
    "pos": [
-    4,
-    2.7,
-    -7.6
+    6.25,
+    1.42,
+    -7.95
    ],
    "size": [
-    2.6,
-    0.5,
+    1.0,
+    0.38,
     0
    ],
-   "label": "TRADITIONAL KITCHEN",
+   "label": "TRADITIONAL",
    "sub": "since 1975",
    "color": "#8C5A3C|#FFF1B8",
    "word": "traditional"

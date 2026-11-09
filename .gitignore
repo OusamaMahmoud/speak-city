@@ -7,3 +7,5 @@ dist
 .turbo
 coverage
 apps/api/prisma/migrations/dev.db*
+.env.production
+*.tsbuildinfo
