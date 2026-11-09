@@ -1,0 +1,1056 @@
+{
+ "slug": "supermarket",
+ "order": 1,
+ "title": "The Supermarket",
+ "titleAr": "قايمة ماما",
+ "page": 8,
+ "intro": "الساعة ٧:٣٠ والضيوف جايين الساعة ٨. ماما ادتك قايمة مشتريات فيها ٥ حاجات. لِف في السوبرماركت، لاقي الحاجات، وادفع عند الكاشير.",
+ "environment": "indoor",
+ "bounds": [
+  -11.2,
+  11.2,
+  -9.2,
+  9.2
+ ],
+ "start": {
+  "x": 0,
+  "z": 7.6,
+  "yaw": 0
+ },
+ "words": [
+  {
+   "en": "grocery list",
+   "ar": "قائمة مشتريات",
+   "example": "Mum gave me a long grocery list."
+  },
+  {
+   "en": "trolley",
+   "ar": "عربة التسوق",
+   "example": "This trolley has a broken wheel."
+  },
+  {
+   "en": "basket",
+   "ar": "سلة",
+   "example": "I only need a basket, not a trolley."
+  },
+  {
+   "en": "customer",
+   "ar": "زبون",
+   "example": "The customer service desk is by the door."
+  },
+  {
+   "en": "loyalty card",
+   "ar": "بطاقة ولاء (نقط)",
+   "example": "Do you have a loyalty card?"
+  },
+  {
+   "en": "aisle",
+   "ar": "ممر بين الرفوف",
+   "example": "The rice is in aisle seven."
+  },
+  {
+   "en": "shelf",
+   "ar": "رف",
+   "example": "The milk is on the top shelf."
+  },
+  {
+   "en": "brand",
+   "ar": "علامة تجارية",
+   "example": "There are ten brands of cereal!"
+  },
+  {
+   "en": "price tag",
+   "ar": "بطاقة السعر",
+   "example": "The price tag says forty pounds."
+  },
+  {
+   "en": "barcode",
+   "ar": "الباركود",
+   "example": "The cashier scans the barcode."
+  },
+  {
+   "en": "discount",
+   "ar": "خصم",
+   "example": "There's a thirty percent discount today."
+  },
+  {
+   "en": "bargain",
+   "ar": "صفقة رابحة",
+   "example": "Two for one? What a bargain!"
+  },
+  {
+   "en": "stock",
+   "ar": "مخزون",
+   "example": "Sorry, it's out of stock."
+  },
+  {
+   "en": "imported goods",
+   "ar": "بضائع مستوردة",
+   "example": "Imported goods are more expensive."
+  },
+  {
+   "en": "canned food",
+   "ar": "طعام معلّب",
+   "example": "Canned food lasts a long time."
+  },
+  {
+   "en": "expiry date",
+   "ar": "تاريخ انتهاء الصلاحية",
+   "example": "Always check the expiry date."
+  },
+  {
+   "en": "organic",
+   "ar": "عضوي (طبيعي)",
+   "example": "These tomatoes are organic. No chemicals."
+  },
+  {
+   "en": "packaging",
+   "ar": "تغليف",
+   "example": "The packaging is bigger than the food!"
+  },
+  {
+   "en": "fresh produce",
+   "ar": "خضار وفاكهة طازجة",
+   "example": "The fresh produce is near the door."
+  },
+  {
+   "en": "dairy products",
+   "ar": "منتجات ألبان",
+   "example": "Milk and cheese are dairy products."
+  },
+  {
+   "en": "bakery",
+   "ar": "مخبز",
+   "example": "The bread from the bakery is still warm."
+  },
+  {
+   "en": "frozen food",
+   "ar": "طعام مجمّد",
+   "example": "Ice cream is in the frozen food section."
+  },
+  {
+   "en": "checkout",
+   "ar": "مكان الدفع",
+   "example": "Please pay at the checkout."
+  },
+  {
+   "en": "queue",
+   "ar": "طابور",
+   "example": "The queue is really long today."
+  },
+  {
+   "en": "express lane",
+   "ar": "ممر سريع للدفع",
+   "example": "Use the express lane for ten items or fewer."
+  },
+  {
+   "en": "cashier",
+   "ar": "الكاشير",
+   "example": "The cashier gave me my change."
+  },
+  {
+   "en": "plastic bag",
+   "ar": "كيس بلاستيك",
+   "example": "Do you need a plastic bag?"
+  },
+  {
+   "en": "reusable bag",
+   "ar": "كيس بيتستخدم تاني",
+   "example": "I always bring a reusable bag."
+  },
+  {
+   "en": "receipt",
+   "ar": "إيصال",
+   "example": "Keep the receipt in case you need a refund."
+  }
+ ],
+ "items": [
+  {
+   "id": "rice",
+   "en": "Rice",
+   "ar": "رز — الممر ٧",
+   "word": "barcode"
+  },
+  {
+   "id": "sauce",
+   "en": "Tomato sauce",
+   "ar": "صلصة — الممر ٧",
+   "word": "expiry date"
+  },
+  {
+   "id": "milk",
+   "en": "Milk",
+   "ar": "لبن — التلاجة اللي ورا",
+   "word": "dairy products"
+  },
+  {
+   "id": "bread",
+   "en": "Bread",
+   "ar": "عيش — المخبز",
+   "word": "bakery"
+  },
+  {
+   "id": "icecream",
+   "en": "Ice cream",
+   "ar": "آيس كريم — الفريزر",
+   "word": "frozen food"
+  }
+ ],
+ "props": [
+  {
+   "type": "shelfRun",
+   "pos": [
+    -9.5,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.5,
+    2.1,
+    7
+   ],
+   "kind": "+x",
+   "color": "rice",
+   "word": "shelf"
+  },
+  {
+   "type": "shelfRun",
+   "pos": [
+    -5.6,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.9,
+    2.1,
+    7
+   ],
+   "kind": "both",
+   "color": "cans|imported"
+  },
+  {
+   "type": "shelfRun",
+   "pos": [
+    -1.8,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.5,
+    2.1,
+    7
+   ],
+   "kind": "-x",
+   "color": "brands",
+   "word": "brand"
+  },
+  {
+   "type": "productHotspot",
+   "pos": [
+    -6.06,
+    1.0,
+    -2.5
+   ],
+   "size": [
+    0.1,
+    1.8,
+    6.6
+   ],
+   "word": "canned food"
+  },
+  {
+   "type": "productHotspot",
+   "pos": [
+    -5.14,
+    1.0,
+    -2.5
+   ],
+   "size": [
+    0.1,
+    1.8,
+    6.6
+   ],
+   "word": "imported goods"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    -7.55,
+    2.9,
+    1.4
+   ],
+   "size": [
+    1.8,
+    0.6,
+    0
+   ],
+   "label": "AISLE 7",
+   "sub": "RICE · CANNED FOOD",
+   "color": "#21A87A|#ffffff",
+   "word": "aisle"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    -3.7,
+    2.9,
+    1.4
+   ],
+   "size": [
+    1.8,
+    0.6,
+    0
+   ],
+   "label": "AISLE 8",
+   "sub": "IMPORTED GOODS",
+   "color": "#21A87A|#ffffff",
+   "word": "imported goods"
+  },
+  {
+   "type": "sign",
+   "kind": "wall",
+   "pos": [
+    -9.22,
+    0.6,
+    -1.4
+   ],
+   "rotY": 1.5707963267948966,
+   "size": [
+    0.3,
+    0.12,
+    0
+   ],
+   "label": "EGP 40",
+   "color": "#FFC94D|#14162B",
+   "word": "price tag"
+  },
+  {
+   "type": "sign",
+   "kind": "wall",
+   "pos": [
+    -9.2,
+    1.95,
+    -1.4
+   ],
+   "rotY": 1.5707963267948966,
+   "size": [
+    0.4,
+    0.3,
+    0
+   ],
+   "label": "-30%",
+   "color": "#E0522F|#ffffff",
+   "word": "discount"
+  },
+  {
+   "type": "sign",
+   "kind": "wall",
+   "pos": [
+    -9.2,
+    1.17,
+    0.4
+   ],
+   "rotY": 1.5707963267948966,
+   "size": [
+    0.6,
+    0.12,
+    0
+   ],
+   "label": "OUT OF STOCK",
+   "color": "#14162B|#ffffff",
+   "word": "stock"
+  },
+  {
+   "type": "pickup",
+   "kind": "riceBag",
+   "pos": [
+    -9.05,
+    0.82,
+    -1.4
+   ],
+   "item": "rice"
+  },
+  {
+   "type": "pickup",
+   "kind": "can",
+   "pos": [
+    -6.15,
+    0.74,
+    -3
+   ],
+   "item": "sauce"
+  },
+  {
+   "type": "produceStand",
+   "pos": [
+    2,
+    0,
+    -1.5
+   ],
+   "word": "fresh produce"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    2,
+    2.8,
+    -1.5
+   ],
+   "size": [
+    2.4,
+    0.45,
+    0
+   ],
+   "label": "FRESH PRODUCE",
+   "color": "#21A87A|#ffffff",
+   "word": "fresh produce"
+  },
+  {
+   "type": "sign",
+   "kind": "stand",
+   "pos": [
+    0.9,
+    1.35,
+    -0.78
+   ],
+   "size": [
+    0.7,
+    0.35,
+    0
+   ],
+   "label": "ORGANIC",
+   "sub": "no chemicals",
+   "color": "#2F3B2C|#B8E986",
+   "word": "organic"
+  },
+  {
+   "type": "food",
+   "kind": "tomatoBox",
+   "pos": [
+    3.1,
+    1.0,
+    -1.02
+   ],
+   "word": "packaging"
+  },
+  {
+   "type": "fridge",
+   "pos": [
+    1.5,
+    0,
+    -9
+   ],
+   "word": "dairy products"
+  },
+  {
+   "type": "pickup",
+   "kind": "milk",
+   "pos": [
+    2.8,
+    1.11,
+    -8.85
+   ],
+   "item": "milk"
+  },
+  {
+   "type": "bakeryCounter",
+   "pos": [
+    8,
+    0,
+    -8.2
+   ],
+   "word": "bakery"
+  },
+  {
+   "type": "pickup",
+   "kind": "bread",
+   "pos": [
+    6.4,
+    1.16,
+    -7.6
+   ],
+   "item": "bread"
+  },
+  {
+   "type": "freezer",
+   "pos": [
+    10.4,
+    0,
+    -2.5
+   ],
+   "word": "frozen food"
+  },
+  {
+   "type": "pickup",
+   "kind": "icecream",
+   "pos": [
+    9.85,
+    0.98,
+    -1.2
+   ],
+   "item": "icecream"
+  },
+  {
+   "type": "trolley",
+   "pos": [
+    -6.4,
+    0,
+    7.6
+   ],
+   "word": "trolley"
+  },
+  {
+   "type": "trolley",
+   "pos": [
+    -5.75,
+    0,
+    7.6
+   ],
+   "word": "trolley"
+  },
+  {
+   "type": "trolley",
+   "pos": [
+    -5.1,
+    0,
+    7.6
+   ],
+   "word": "trolley"
+  },
+  {
+   "type": "baskets",
+   "pos": [
+    -3.6,
+    0,
+    7.9
+   ],
+   "word": "basket"
+  },
+  {
+   "type": "serviceDesk",
+   "pos": [
+    -10.2,
+    0,
+    4.8
+   ],
+   "word": "customer"
+  },
+  {
+   "type": "sign",
+   "kind": "wall",
+   "pos": [
+    -11.48,
+    1.8,
+    1.9
+   ],
+   "rotY": 1.5707963267948966,
+   "size": [
+    1.4,
+    1.0,
+    0
+   ],
+   "label": "LOYALTY CARD",
+   "sub": "earn points every visit",
+   "color": "#8E6CEF|#ffffff",
+   "word": "loyalty card"
+  },
+  {
+   "type": "bargainBin",
+   "pos": [
+    -0.8,
+    0,
+    3.6
+   ],
+   "word": "bargain"
+  },
+  {
+   "type": "checkout",
+   "pos": [
+    6,
+    0,
+    4.2
+   ]
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    6,
+    2.95,
+    2.2
+   ],
+   "size": [
+    1.6,
+    0.42,
+    0
+   ],
+   "label": "CHECKOUT 3",
+   "color": "#14162B|#FFC94D",
+   "word": "checkout"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    4.6,
+    2.6,
+    4.2
+   ],
+   "rotY": -1.5707963267948966,
+   "size": [
+    2,
+    0.6,
+    0
+   ],
+   "label": "EXPRESS LANE",
+   "sub": "10 ITEMS OR FEWER",
+   "color": "#E0522F|#ffffff",
+   "word": "express lane"
+  },
+  {
+   "type": "queuePosts",
+   "pos": [
+    4.7,
+    0,
+    0
+   ],
+   "word": "queue"
+  },
+  {
+   "type": "sign",
+   "kind": "entrance",
+   "pos": [
+    0,
+    3.4,
+    9.45
+   ],
+   "rotY": 3.141592653589793,
+   "size": [
+    4,
+    0.7,
+    0
+   ],
+   "label": "FRESH MART",
+   "color": "#21A87A|#ffffff"
+  },
+  {
+   "type": "block",
+   "pos": [
+    -9.5,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.5,
+    1,
+    7
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -5.6,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.9,
+    1,
+    7
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -1.8,
+    0,
+    -2.5
+   ],
+   "size": [
+    0.5,
+    1,
+    7
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    2,
+    0,
+    -1.5
+   ],
+   "size": [
+    3.2,
+    1,
+    1.6
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    1.5,
+    0,
+    -9
+   ],
+   "size": [
+    5.2,
+    1,
+    1.2
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    8,
+    0,
+    -8.2
+   ],
+   "size": [
+    4.2,
+    1,
+    1.4
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    10.4,
+    0,
+    -2.5
+   ],
+   "size": [
+    1.6,
+    1,
+    4.2
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -5.75,
+    0,
+    7.6
+   ],
+   "size": [
+    2.1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -3.6,
+    0,
+    7.9
+   ],
+   "size": [
+    0.6,
+    1,
+    0.6
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -10.2,
+    0,
+    4.8
+   ],
+   "size": [
+    1.5,
+    1,
+    2.6
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -0.8,
+    0,
+    3.6
+   ],
+   "size": [
+    1.4,
+    1,
+    1.4
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    6,
+    0,
+    4.2
+   ],
+   "size": [
+    1,
+    1,
+    3.6
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    7.45,
+    0,
+    4.3
+   ],
+   "size": [
+    2.1,
+    1,
+    5.4
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    4.7,
+    0,
+    1.4
+   ],
+   "size": [
+    0.2,
+    1,
+    3
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -1.3,
+    0,
+    4.9
+   ],
+   "size": [
+    0.6,
+    1,
+    0.6
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "id": "guard",
+   "name": "Mark",
+   "role": "Security",
+   "model": "male",
+   "pos": [
+    -1.3,
+    0,
+    4.9
+   ],
+   "rotY": 2.827433388230814,
+   "voicePitch": 0.8,
+   "dialogues": [
+    {
+     "key": "guard"
+    }
+   ],
+   "idleLine": [
+    "Enjoy your shopping!",
+    "استمتع بالتسوق!"
+   ]
+  },
+  {
+   "id": "cashier",
+   "name": "Nour",
+   "role": "Cashier",
+   "model": "female",
+   "pos": [
+    6.85,
+    0,
+    4.4
+   ],
+   "rotY": -1.5707963267948966,
+   "voicePitch": 1.2,
+   "word": "cashier",
+   "dialogues": [
+    {
+     "key": "cashier",
+     "requires": "shop"
+    }
+   ],
+   "lockedLine": [
+    "Hi love! Finish your grocery list first. I'll be right here.",
+    "خلّص قايمة المشتريات الأول، أنا هنا."
+   ],
+   "idleLine": [
+    "Bye! See you next time.",
+    "باي! نشوفك المرة الجاية."
+   ]
+  }
+ ],
+ "dialogues": {
+  "guard": [
+   {
+    "npc": "Good evening! Do you have a loyalty card?",
+    "ar": "مساء الخير! معاك كارت نقط؟",
+    "options": [
+     {
+      "en": "No, I don't. Can I get one?",
+      "ok": true
+     },
+     {
+      "en": "No, I am not loyal.",
+      "why": "<b>loyal</b> معناها «وفي»، يعني كأنك بتقوله إنك مش وفي للمحل 😂 قول: <b>No, I don't.</b>"
+     },
+     {
+      "en": "No have card.",
+      "why": "الجملة ناقصها فاعل وفعل. الصح: <b>No, I don't (have one).</b>"
+     }
+    ],
+    "after": "Sure, ask at customer service. Grab a basket and enjoy your shopping!",
+    "teaches": [
+     "loyalty card",
+     "customer"
+    ]
+   }
+  ],
+  "cashier": [
+   {
+    "npc": "Hi! Did you find everything you were looking for?",
+    "ar": "أهلاً! لقيت كل اللي كنت بتدور عليه؟",
+    "options": [
+     {
+      "en": "Yes, I did, thanks.",
+      "ok": true
+     },
+     {
+      "en": "Yes, I find everything.",
+      "why": "<b>find</b> لازم تبقى ماضي. الأبسط: <b>Yes, I did.</b>"
+     },
+     {
+      "en": "Give me the checkout, please.",
+      "why": "إنت أصلاً واقف عند الكاشير 😄"
+     }
+    ],
+    "after": "Great! Let me scan these for you.",
+    "teaches": [
+     "cashier",
+     "barcode"
+    ],
+    "effect": "scan"
+   },
+   {
+    "npc": "Okay… the rice is sixty pounds.",
+    "ar": "الرز بـ ٦٠ جنيه.",
+    "options": [
+     {
+      "en": "Sorry, I think the price tag said forty.",
+      "ok": true
+     },
+     {
+      "en": "You are a thief!",
+      "why": "😱 كده بتتهمها إنها حرامية! اعترض بأدب: <b>I think the price tag said…</b>"
+     },
+     {
+      "en": "The rice is forty money.",
+      "why": "<b>money</b> مش عملة. قول <b>forty pounds</b>، وابدأ بـ <b>I think…</b>"
+     }
+    ],
+    "after": "Oh, you're right! There's a discount today. Sorry about that.",
+    "teaches": [
+     "price tag",
+     "discount"
+    ],
+    "effect": "fix"
+   },
+   {
+    "npc": "Do you need a plastic bag?",
+    "ar": "محتاج كيس بلاستيك؟",
+    "options": [
+     {
+      "en": "No thanks, I brought my own.",
+      "ok": true
+     },
+     {
+      "en": "No, I don't need you.",
+      "why": "<b>I don't need you</b> = «أنا مش محتاجك إنتي» 😅 قول: <b>No thanks.</b>"
+     },
+     {
+      "en": "No, I have bag myself.",
+      "why": "الطبيعي: <b>I brought my own (bag).</b>"
+     }
+    ],
+    "after": "Love the reusable bag!",
+    "teaches": [
+     "plastic bag",
+     "reusable bag"
+    ]
+   },
+   {
+    "npc": "Would you like your receipt?",
+    "ar": "عايز الإيصال؟",
+    "options": [
+     {
+      "en": "Yes, please.",
+      "ok": true
+     },
+     {
+      "en": "Give me the paper.",
+      "why": "دي أمر وناشفة شوية. <b>Yes, please.</b> أحسن بكتير."
+     },
+     {
+      "en": "Receipt is yes.",
+      "why": "ترتيب الكلام غلط. قول: <b>Yes, please.</b>"
+     }
+    ],
+    "after": "Here you go.",
+    "teaches": [
+     "receipt"
+    ],
+    "effect": "receipt"
+   },
+   {
+    "npc": "Have a lovely evening!",
+    "ar": "ليلتك سعيدة!",
+    "options": [
+     {
+      "en": "Thanks, you too!",
+      "ok": true
+     },
+     {
+      "en": "You too have.",
+      "why": "الرد المعتاد: <b>Thanks, you too!</b>"
+     },
+     {
+      "en": "Thank you, I will have it.",
+      "why": "ترجمة حرفية 😄 الرد الطبيعي: <b>You too!</b>"
+     }
+    ],
+    "after": "Bye! See you next time."
+   }
+  ]
+ },
+ "quest": [
+  {
+   "id": "door",
+   "ar": "كلّم الأمن اللي عند الباب 👮",
+   "dialogue": "guard"
+  },
+  {
+   "id": "shop",
+   "ar": "دوّر على الحاجات اللي في القايمة 📝",
+   "items": [
+    "rice",
+    "sauce",
+    "milk",
+    "bread",
+    "icecream"
+   ]
+  },
+  {
+   "id": "pay",
+   "ar": "روح للكاشير عشان تدفع 💳",
+   "dialogue": "cashier"
+  }
+ ],
+ "outro": {
+  "title": "7:59 PM",
+  "ar": "وصلت البيت قبل الضيوف بدقيقة."
+ }
+}

@@ -1,0 +1,930 @@
+{
+ "slug": "food-hall",
+ "order": 3,
+ "title": "World Food Hall",
+ "titleAr": "الرهان — مطابخ العالم",
+ "page": 60,
+ "intro": "زميلتك سارة بتقول إنك «تقليدي أوي». الرهان: تاكل أكلة من ٤ مناطق في العالم في ليلة واحدة، واللي يخسر يدفع عشا التيم كله.",
+ "environment": "indoor",
+ "bounds": [
+  -11.2,
+  11.2,
+  -9.2,
+  9.2
+ ],
+ "start": {
+  "x": 0,
+  "z": 7.6,
+  "yaw": 0
+ },
+ "words": [
+  {
+   "en": "sushi",
+   "ar": "سوشي",
+   "example": "The first piece of sushi fell into the soy sauce."
+  },
+  {
+   "en": "noodles",
+   "ar": "نودلز (مكرونة رفيعة)",
+   "example": "Sam ate noodles like a professional."
+  },
+  {
+   "en": "rice",
+   "ar": "أرز",
+   "example": "Sushi is cold rice with fish on top."
+  },
+  {
+   "en": "curry",
+   "ar": "كاري",
+   "example": "The chicken curry is mild."
+  },
+  {
+   "en": "dumplings",
+   "ar": "عجينة محشية (مش زلابية)",
+   "example": "Steamed dumplings are my favourite."
+  },
+  {
+   "en": "soy sauce",
+   "ar": "صلصة الصويا",
+   "example": "Can I have some soy sauce?"
+  },
+  {
+   "en": "pizza",
+   "ar": "بيتزا",
+   "example": "Pizza is too easy. Try something new!"
+  },
+  {
+   "en": "pasta",
+   "ar": "مكرونة",
+   "example": "The pasta comes with tomato sauce."
+  },
+  {
+   "en": "baguette",
+   "ar": "عيش باجيت فرنساوي",
+   "example": "I ate half a baguette while I waited."
+  },
+  {
+   "en": "paella",
+   "ar": "بايلا (رز إسباني)",
+   "example": "The paella takes forty minutes."
+  },
+  {
+   "en": "croissant",
+   "ar": "كرواسون",
+   "example": "A warm croissant for breakfast."
+  },
+  {
+   "en": "cheese",
+   "ar": "جبنة",
+   "example": "Baguette with cheese is simple and perfect."
+  },
+  {
+   "en": "kebab",
+   "ar": "كباب",
+   "example": "The kebab is grilled on the fire."
+  },
+  {
+   "en": "hummus",
+   "ar": "حمص",
+   "example": "Warm pita bread with hummus."
+  },
+  {
+   "en": "falafel",
+   "ar": "فلافل",
+   "example": "He dipped the falafel in the hummus."
+  },
+  {
+   "en": "pita bread",
+   "ar": "عيش شامي",
+   "example": "Can we get some more pita bread?"
+  },
+  {
+   "en": "tacos",
+   "ar": "تاكو",
+   "example": "Two tacos, please."
+  },
+  {
+   "en": "burrito",
+   "ar": "بوريتو",
+   "example": "The burrito is as big as my arm!"
+  },
+  {
+   "en": "nachos",
+   "ar": "ناتشوز",
+   "example": "Nachos with hot salsa."
+  },
+  {
+   "en": "empanada",
+   "ar": "إمبانادا",
+   "example": "The empanada was sweet. Apple inside!"
+  },
+  {
+   "en": "salsa",
+   "ar": "صلصة سالسا",
+   "example": "The salsa is really spicy."
+  },
+  {
+   "en": "international",
+   "ar": "دولي/عالمي",
+   "example": "I love international food."
+  },
+  {
+   "en": "traditional",
+   "ar": "تقليدي",
+   "example": "You're so traditional!"
+  },
+  {
+   "en": "spicy",
+   "ar": "حرّاق",
+   "example": "Wasabi is very spicy."
+  },
+  {
+   "en": "sweet",
+   "ar": "مسكّر/حلو",
+   "example": "It's sweeter than I expected."
+  },
+  {
+   "en": "sour",
+   "ar": "حامض",
+   "example": "His face turned sour, like a lemon."
+  }
+ ],
+ "items": [],
+ "props": [
+  {
+   "type": "counter",
+   "pos": [
+    -9.8,
+    0,
+    -2
+   ],
+   "rotY": 1.5707963267948966,
+   "size": [
+    6,
+    1,
+    1.1
+   ],
+   "label": "ASIA",
+   "color": "#E0522F",
+   "tag": "asia"
+  },
+  {
+   "type": "block",
+   "pos": [
+    -9.8,
+    0,
+    -2
+   ],
+   "size": [
+    1.3,
+    1,
+    6.2
+   ]
+  },
+  {
+   "type": "food",
+   "kind": "sushi",
+   "pos": [
+    -9.45,
+    1.04,
+    -4.4
+   ],
+   "word": "sushi",
+   "tag": "asia"
+  },
+  {
+   "type": "food",
+   "kind": "noodles",
+   "pos": [
+    -9.45,
+    1.04,
+    -3.5500000000000003
+   ],
+   "word": "noodles",
+   "tag": "asia"
+  },
+  {
+   "type": "food",
+   "kind": "rice",
+   "pos": [
+    -9.45,
+    1.04,
+    -2.7
+   ],
+   "word": "rice",
+   "tag": "asia"
+  },
+  {
+   "type": "food",
+   "kind": "curry",
+   "pos": [
+    -9.45,
+    1.04,
+    -1.8500000000000005
+   ],
+   "word": "curry",
+   "tag": "asia"
+  },
+  {
+   "type": "food",
+   "kind": "dumplings",
+   "pos": [
+    -9.45,
+    1.04,
+    -1.0000000000000004
+   ],
+   "word": "dumplings",
+   "tag": "asia"
+  },
+  {
+   "type": "food",
+   "kind": "soySauce",
+   "pos": [
+    -9.45,
+    1.04,
+    -0.15000000000000036
+   ],
+   "word": "soy sauce",
+   "tag": "asia"
+  },
+  {
+   "type": "counter",
+   "pos": [
+    -4,
+    0,
+    -8.4
+   ],
+   "rotY": 0,
+   "size": [
+    6,
+    1,
+    1.1
+   ],
+   "label": "EUROPE",
+   "color": "#2E86DE",
+   "tag": "europe"
+  },
+  {
+   "type": "block",
+   "pos": [
+    -4,
+    0,
+    -8.4
+   ],
+   "size": [
+    6.2,
+    1,
+    1.3
+   ]
+  },
+  {
+   "type": "food",
+   "kind": "pizza",
+   "pos": [
+    -6.4,
+    1.04,
+    -8.05
+   ],
+   "word": "pizza",
+   "tag": "europe"
+  },
+  {
+   "type": "food",
+   "kind": "pasta",
+   "pos": [
+    -5.45,
+    1.04,
+    -8.05
+   ],
+   "word": "pasta",
+   "tag": "europe"
+  },
+  {
+   "type": "food",
+   "kind": "baguette",
+   "pos": [
+    -4.5,
+    1.04,
+    -8.05
+   ],
+   "word": "baguette",
+   "tag": "europe"
+  },
+  {
+   "type": "food",
+   "kind": "paella",
+   "pos": [
+    -3.5500000000000007,
+    1.04,
+    -8.05
+   ],
+   "word": "paella",
+   "tag": "europe"
+  },
+  {
+   "type": "food",
+   "kind": "croissant",
+   "pos": [
+    -2.6000000000000005,
+    1.04,
+    -8.05
+   ],
+   "word": "croissant",
+   "tag": "europe"
+  },
+  {
+   "type": "food",
+   "kind": "cheese",
+   "pos": [
+    -1.6500000000000004,
+    1.04,
+    -8.05
+   ],
+   "word": "cheese",
+   "tag": "europe"
+  },
+  {
+   "type": "counter",
+   "pos": [
+    4,
+    0,
+    -8.4
+   ],
+   "rotY": 0,
+   "size": [
+    5,
+    1,
+    1.1
+   ],
+   "label": "MIDDLE EAST",
+   "color": "#21A87A",
+   "tag": "middleeast"
+  },
+  {
+   "type": "block",
+   "pos": [
+    4,
+    0,
+    -8.4
+   ],
+   "size": [
+    5.2,
+    1,
+    1.3
+   ]
+  },
+  {
+   "type": "food",
+   "kind": "kebab",
+   "pos": [
+    2.1,
+    1.04,
+    -8.05
+   ],
+   "word": "kebab",
+   "tag": "middleeast"
+  },
+  {
+   "type": "food",
+   "kind": "hummus",
+   "pos": [
+    3.05,
+    1.04,
+    -8.05
+   ],
+   "word": "hummus",
+   "tag": "middleeast"
+  },
+  {
+   "type": "food",
+   "kind": "falafel",
+   "pos": [
+    4.0,
+    1.04,
+    -8.05
+   ],
+   "word": "falafel",
+   "tag": "middleeast"
+  },
+  {
+   "type": "food",
+   "kind": "pita",
+   "pos": [
+    4.949999999999999,
+    1.04,
+    -8.05
+   ],
+   "word": "pita bread",
+   "tag": "middleeast"
+  },
+  {
+   "type": "food",
+   "kind": "lemons",
+   "pos": [
+    5.9,
+    1.04,
+    -8.05
+   ],
+   "word": "sour",
+   "tag": "middleeast"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    4,
+    2.7,
+    -7.6
+   ],
+   "size": [
+    2.6,
+    0.5,
+    0
+   ],
+   "label": "TRADITIONAL KITCHEN",
+   "sub": "since 1975",
+   "color": "#8C5A3C|#FFF1B8",
+   "word": "traditional"
+  },
+  {
+   "type": "counter",
+   "pos": [
+    9.8,
+    0,
+    -2
+   ],
+   "rotY": -1.5707963267948966,
+   "size": [
+    6,
+    1,
+    1.1
+   ],
+   "label": "LATIN AMERICA",
+   "color": "#F39C12",
+   "tag": "latin"
+  },
+  {
+   "type": "block",
+   "pos": [
+    9.8,
+    0,
+    -2
+   ],
+   "size": [
+    1.3,
+    1,
+    6.2
+   ]
+  },
+  {
+   "type": "food",
+   "kind": "tacos",
+   "pos": [
+    9.45,
+    1.04,
+    -4.4
+   ],
+   "word": "tacos",
+   "tag": "latin"
+  },
+  {
+   "type": "food",
+   "kind": "burrito",
+   "pos": [
+    9.45,
+    1.04,
+    -3.5500000000000003
+   ],
+   "word": "burrito",
+   "tag": "latin"
+  },
+  {
+   "type": "food",
+   "kind": "nachos",
+   "pos": [
+    9.45,
+    1.04,
+    -2.7
+   ],
+   "word": "nachos",
+   "tag": "latin"
+  },
+  {
+   "type": "food",
+   "kind": "empanada",
+   "pos": [
+    9.45,
+    1.04,
+    -1.8500000000000005
+   ],
+   "word": "empanada",
+   "tag": "latin"
+  },
+  {
+   "type": "food",
+   "kind": "salsa",
+   "pos": [
+    9.45,
+    1.04,
+    -1.0000000000000004
+   ],
+   "word": "salsa",
+   "tag": "latin"
+  },
+  {
+   "type": "food",
+   "kind": "chili",
+   "pos": [
+    9.45,
+    1.04,
+    -0.15000000000000036
+   ],
+   "word": "spicy",
+   "tag": "latin"
+  },
+  {
+   "type": "sign",
+   "kind": "stand",
+   "pos": [
+    9.4,
+    1.45,
+    -1.85
+   ],
+   "rotY": -1.5707963267948966,
+   "size": [
+    0.6,
+    0.3,
+    0
+   ],
+   "label": "SWEET",
+   "sub": "apple inside",
+   "color": "#F78FB3|#ffffff",
+   "word": "sweet"
+  },
+  {
+   "type": "sign",
+   "kind": "hang",
+   "pos": [
+    0,
+    3.1,
+    -1
+   ],
+   "size": [
+    4.4,
+    0.7,
+    0
+   ],
+   "label": "INTERNATIONAL FOOD HALL",
+   "color": "#14162B|#FFC94D",
+   "word": "international"
+  },
+  {
+   "type": "table",
+   "pos": [
+    -3.5,
+    0,
+    1.5
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    -3.5,
+    0,
+    1.5
+   ],
+   "size": [
+    1.5,
+    1,
+    1.5
+   ]
+  },
+  {
+   "type": "table",
+   "pos": [
+    3,
+    0,
+    1.5
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    3,
+    0,
+    1.5
+   ],
+   "size": [
+    1.5,
+    1,
+    1.5
+   ]
+  },
+  {
+   "type": "table",
+   "pos": [
+    0,
+    0,
+    -3.5
+   ]
+  },
+  {
+   "type": "block",
+   "pos": [
+    0,
+    0,
+    -3.5
+   ],
+   "size": [
+    1.5,
+    1,
+    1.5
+   ]
+  },
+  {
+   "type": "sign",
+   "kind": "entrance",
+   "pos": [
+    0,
+    3.4,
+    9.45
+   ],
+   "rotY": 3.141592653589793,
+   "size": [
+    4,
+    0.7,
+    0
+   ],
+   "label": "WORLD FOOD HALL",
+   "color": "#E0522F|#ffffff"
+  },
+  {
+   "type": "block",
+   "pos": [
+    0.9,
+    0,
+    4.4
+   ],
+   "size": [
+    0.6,
+    1,
+    0.6
+   ]
+  }
+ ],
+ "npcs": [
+  {
+   "id": "sara",
+   "name": "Sara",
+   "role": "Your colleague",
+   "model": "female",
+   "pos": [
+    0.9,
+    0,
+    4.4
+   ],
+   "rotY": 3.141592653589793,
+   "outfit": {
+    "hat": "cap"
+   },
+   "voicePitch": 1.25,
+   "dialogues": [
+    {
+     "key": "bet"
+    },
+    {
+     "key": "win",
+     "requires": "world"
+    }
+   ],
+   "lockedLine": [
+    "Go on! Europe, the Middle East and Latin America. Tap a dish at each counter.",
+    "يلا! أوروبا والشرق الأوسط وأمريكا اللاتينية. دوس على أكلة في كل كاونتر."
+   ],
+   "idleLine": [
+    "Fine, fine. You're not traditional.",
+    "خلاص خلاص. إنت مش تقليدي."
+   ]
+  },
+  {
+   "id": "chef",
+   "name": "Chef Aiko",
+   "role": "Asian kitchen",
+   "model": "female",
+   "pos": [
+    -10.75,
+    0,
+    -2
+   ],
+   "rotY": 1.5707963267948966,
+   "outfit": {
+    "hat": "chef",
+    "apron": "#ffffff"
+   },
+   "voicePitch": 1.05,
+   "dialogues": [
+    {
+     "key": "sushi",
+     "requires": "bet"
+    }
+   ],
+   "lockedLine": [
+    "Welcome! Come back when you're hungry.",
+    "أهلاً! ارجع لما تجوع."
+   ],
+   "idleLine": [
+    "Enjoy your sushi!",
+    "بالهنا!"
+   ]
+  }
+ ],
+ "dialogues": {
+  "bet": [
+   {
+    "npc": "Koshari again? You're so traditional.",
+    "ar": "كشري تاني؟ إنت تقليدي أوي.",
+    "options": [
+     {
+      "en": "Me? No way. I love international food!",
+      "ok": true
+     },
+     {
+      "en": "I am not tradition.",
+      "why": "<b>tradition</b> اسم، والصفة <b>traditional</b>. والأحلى: <b>No way!</b>"
+     },
+     {
+      "en": "Yes, I am koshari.",
+      "why": "كده بتقول «أنا كشري» 😂"
+     }
+    ],
+    "after": "Prove it.",
+    "teaches": [
+     "traditional",
+     "international"
+    ]
+   },
+   {
+    "npc": "One dish from four parts of the world, tonight. Deal?",
+    "ar": "أكلة من ٤ مناطق في العالم، النهارده. اتفقنا؟",
+    "options": [
+     {
+      "en": "Let's make a bet. The loser pays for dinner.",
+      "ok": true
+     },
+     {
+      "en": "Okay, we bet money food.",
+      "why": "الصح: <b>Let's make a bet.</b>"
+     },
+     {
+      "en": "I make bet with you.",
+      "why": "الطبيعي: <b>Let's make a bet.</b> أو <b>You're on!</b>"
+     }
+    ],
+    "after": "Deal! Start with Asia. The chef over there is amazing."
+   }
+  ],
+  "sushi": [
+   {
+    "npc": "Welcome! What would you like?",
+    "ar": "أهلاً! تحب تاكل إيه؟",
+    "options": [
+     {
+      "en": "I'll have the sushi, please.",
+      "ok": true
+     },
+     {
+      "en": "I want eat sushi.",
+      "why": "ناقصها <b>to</b>، والأحسن: <b>I'll have the sushi, please.</b>"
+     },
+     {
+      "en": "Give sushi.",
+      "why": "أمر ناشف. قول: <b>I'll have…, please.</b>"
+     }
+    ],
+    "after": "Great choice. Sushi is cold rice with fresh fish on top.",
+    "teaches": [
+     "sushi",
+     "rice"
+    ]
+   },
+   {
+    "npc": "Do you want wasabi with it? It's very spicy.",
+    "ar": "عايز وسابي معاه؟ حراق جداً.",
+    "options": [
+     {
+      "en": "Just a little, please. I don't like it too spicy.",
+      "ok": true
+     },
+     {
+      "en": "I am spicy.",
+      "why": "كده بتقول «أنا حراق» 😂 قول: <b>I don't like it too spicy.</b>"
+     },
+     {
+      "en": "Wasabi is how much spicy?",
+      "why": "الصح: <b>How spicy is it?</b>"
+     }
+    ],
+    "after": "Just a little. Good idea!",
+    "teaches": [
+     "spicy"
+    ]
+   },
+   {
+    "npc": "Anything else? Some soy sauce?",
+    "ar": "أي حاجة تانية؟ شوية صويا صوص؟",
+    "options": [
+     {
+      "en": "Yes, please. That's all, thanks.",
+      "ok": true
+     },
+     {
+      "en": "Soy sauce is yes.",
+      "why": "قول ببساطة: <b>Yes, please.</b>"
+     },
+     {
+      "en": "No more, finish.",
+      "why": "الطبيعي: <b>That's all, thanks.</b>"
+     }
+    ],
+    "after": "Here you go. Enjoy!",
+    "teaches": [
+     "soy sauce"
+    ]
+   }
+  ],
+  "win": [
+   {
+    "npc": "So? Did you really eat from all four?",
+    "ar": "ها؟ أكلت فعلاً من الأربعة؟",
+    "options": [
+     {
+      "en": "Yes! Sushi, paella, hummus and an empanada.",
+      "ok": true
+     },
+     {
+      "en": "Yes, I eat all of them yesterday.",
+      "why": "لو النهارده: <b>I ate</b> (ماضي) ومن غير yesterday."
+     },
+     {
+      "en": "Yes, very much food.",
+      "why": "مش طبيعية. عدّد اللي أكلته: <b>Sushi, paella…</b>"
+     }
+    ],
+    "after": "An empanada? Was it good?"
+   },
+   {
+    "npc": "Fine. You win. I'm paying for twelve people…",
+    "ar": "ماشي. إنت كسبت. أنا هدفع لـ ١٢ واحد…",
+    "options": [
+     {
+      "en": "Great. Dinner's on you!",
+      "ok": true
+     },
+     {
+      "en": "Dinner is on me you.",
+      "why": "الصح: <b>Dinner's on you!</b>"
+     },
+     {
+      "en": "You pay dinner food.",
+      "why": "الطبيعي: <b>Dinner's on you!</b>"
+     }
+    ],
+    "after": "Ugh. That's sour.",
+    "teaches": [
+     "sour",
+     "sweet"
+    ]
+   }
+  ]
+ },
+ "quest": [
+  {
+   "id": "bet",
+   "ar": "كلّم سارة اللي واقفة جنب الترابيزة 🤝",
+   "dialogue": "bet"
+  },
+  {
+   "id": "asia",
+   "ar": "اطلب سوشي من الشيف في كاونتر آسيا 🍣",
+   "dialogue": "sushi"
+  },
+  {
+   "id": "world",
+   "ar": "دوس على أكلة في أوروبا، والشرق الأوسط، وأمريكا اللاتينية 🌍",
+   "visit": [
+    "europe",
+    "middleeast",
+    "latin"
+   ]
+  },
+  {
+   "id": "win",
+   "ar": "ارجع لسارة وخلّيها تدفع 😎",
+   "dialogue": "win"
+  }
+ ],
+ "outro": {
+  "title": "Dinner's on Sara",
+  "ar": "١٢ زميل جعانين دخلوا، وسارة ماسكة الفاتورة ووشها حامض زي الليمون."
+ }
+}

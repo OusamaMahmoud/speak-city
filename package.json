@@ -1,0 +1,14 @@
+{
+  "name": "speak-city",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "build:shared": "pnpm --filter @speak-city/shared build",
+    "db:up": "docker compose up -d mysql",
+    "db:migrate": "pnpm --filter @speak-city/api prisma:migrate",
+    "db:seed": "pnpm --filter @speak-city/api seed",
+    "dev": "pnpm build:shared && pnpm -r --parallel --filter ./apps/** dev",
+    "build": "pnpm build:shared && pnpm --filter @speak-city/api build && pnpm --filter @speak-city/web build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
